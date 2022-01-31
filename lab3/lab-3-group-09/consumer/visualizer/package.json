@@ -1,0 +1,22 @@
+{
+  "name": "visualizer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "author": "Matthijs Brobbel <m1brobbel@gmail.com>",
+  "license": "",
+  "repository": "",
+  "scripts": {
+    "bundle": "parcel build src/index.html --public-url ./dist",
+    "format": "prettier --write src/**",
+    "dev": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "chroma-js": "^2.1.2",
+    "leaflet": "^1.7.1"
+  }
+}
